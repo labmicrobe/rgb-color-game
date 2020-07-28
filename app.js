@@ -8,9 +8,6 @@ app.get("/",function (req,res) {
 	res.render("colorgame");
 });
 
-const hostname = '127.0.0.1';
-const port = 3000;
-
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log("Server Has Started!");
